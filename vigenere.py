@@ -20,6 +20,6 @@ def vigenere(text, key, decipher=False): # usage: text = text to be encryped. ke
 
     return cipher
 
-decyph = 0 if (len(sys.argv) < 4) else int(sys.argv[3])
+decyph = False if (len(sys.argv) < 4) else (sys.argv[3].lower() == 'true') 
 
-print(vigenere(sys.argv[1], sys.argv[2], True if decyph == 1 else False))
+print(vigenere(sys.argv[1], sys.argv[2], decyph))
