@@ -18,5 +18,5 @@ python vigenere.py Plaintext Key {Decrypt = false}
 Some examples
 ```
 python vigenere.py "super secret text" "immaculatekey" => AGBETMPCKIDXCFF
-python vigenere.py "AGBETMPCKIDXCFF" "immaculatekey" false => SUPERSECRETTEXT
+python vigenere.py "AGBETMPCKIDXCFF" "immaculatekey" true => SUPERSECRETTEXT
 ```
