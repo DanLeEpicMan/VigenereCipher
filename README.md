@@ -1,5 +1,5 @@
 # Vigenere Cipher
-I found this while I was browsing through some of my old files, and figured I may as well upload it here. I made this sometime in Fall 2021 (don't remember exactly as I had completely forgotten about this), most likely out of curiosity while I was Googling encryption algorithms, and decided to try to implement one on my own. This script ignores all non-English Alphabet characters and shifts them according to the Vigenere Cipher (basically a dynamic Caesar Cipher) and converts every character to upper-case. See usage below.
+I found this while I was browsing through some of my old files, and figured I may as well upload it here. I made this sometime in Fall 2021 (don't really remember when exactly since I completely forgot about this), most likely out of curiosity while I was Googling encryption algorithms, and decided to try to implement one on my own. This script ignores all non-English Alphabet characters and shifts them according to the Vigenere Cipher (basically a dynamic Caesar Cipher) and converts every character to upper-case. See usage below.
 
 # Usage
 
