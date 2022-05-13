@@ -1,5 +1,5 @@
 # Vigenere Cipher
-I found this while I was browsing through some of my old files, and figured I may as well upload it here. I made this sometimes in Fall 2021 (don't remember exactly as I had completely forgotten about this), most likely out of boredom while I was Googling encryption algorithms, and decided to try to implement one on my own. I did modify this a bit, since previously my code simply shifted the Unicode, whereas now this script ignores all non-English alphabet characters and shifts it within modulo 26 (that is, it goes from Z to A instead of Z to special characters). I also added some functionality for command prompt. See usage below.
+I found this while I was browsing through some of my old files, and figured I may as well upload it here. I made this sometimes in Fall 2021 (don't remember exactly as I had completely forgotten about this), most likely out of curiosity while I was Googling encryption algorithms, and decided to try to implement one on my own. This script ignore all non-English Alphabet characters and shifts them according to the Vigenere Cipher (basically a dynamic Caesar Cipher). See usage below.
 
 # Usage
 
